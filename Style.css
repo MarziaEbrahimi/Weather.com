@@ -6,38 +6,35 @@
   border-radius: 8px;
 }
 
-#font-small {
-  font-size: medium;
-  position: fixed;
-  margin-top: 10px;
-  margin-left: 40px;
-}
 #font-larg {
   font-size: xx-large;
   font-weight: bolder;
   position: fixed;
   margin-top: 0;
 }
+
+#font-small {
+  font-size: medium;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+.weather {
+  position: fixed;
+  margin: 20px 10px 40px 30px;
+  font-size: smaller;
+}
+.city {
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.line {
+  margin-left: 35%;
+  margin-top: -30;
+}
 .humidity {
   position: relative;
   margin-bottom: -2%;
   margin-top: 2%;
-}
-.weather {
-  position: fixed;
-  margin-top: 10px;
-  margin-left: 90px;
-  font-size: smaller;
-}
-.city {
-  position: relative;
-  margin-left: 55%;
-  margin-top: 10%;
-}
-.line {
-  position: relative;
-  margin-left: 35%;
-  margin-top: -30;
 }
 .btn-danger {
   background-color: rgb(79, 112, 244);
