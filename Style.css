@@ -5,37 +5,29 @@
   border: 1px solid gray;
   border-radius: 8px;
 }
-
 #font-larg {
   font-size: xx-large;
   font-weight: bolder;
-  position: fixed;
-  margin-top: 0;
 }
-
 #font-small {
   font-size: medium;
-  margin-top: 10px;
-  margin-left: 35px;
+  margin-top: 10%;
+  margin-left: 3%;
 }
 .weather {
-  position: fixed;
-  margin: 20px 10px 40px 30px;
+  position: static;
+  margin-top: -10%;
+  margin-left: 80%;
   font-size: smaller;
 }
 .city {
-  margin-left: 5%;
-  margin-top: 10%;
+  margin: 2px 40px 20px 10px;
 }
-.line {
-  margin-left: 35%;
-  margin-top: -30;
+#line {
+  margin-left: 60%;
+  margin-top: 0%;
 }
-.humidity {
-  position: relative;
-  margin-bottom: -2%;
-  margin-top: 2%;
-}
+
 .btn-danger {
   background-color: rgb(79, 112, 244);
   border: 1px solid gray;
@@ -48,8 +40,8 @@
 .font-preci {
   text-decoration: underline;
 }
-.color {
-  background-color: #ffcc0033;
-  padding: 19px;
-  white-space: red;
+#link-info {
+  position: static;
+  margin-top: -20%;
+  margin-left: 20%;
 }
