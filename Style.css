@@ -1,0 +1,66 @@
+.container {
+  max-width: 800px;
+  margin: 29px auto;
+  padding: 50px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+#font-small {
+  font-size: medium;
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#font-larg {
+  font-size: xx-large;
+  font-weight: bolder;
+  position: fixed;
+  margin-top: 0;
+}
+.weather {
+  position: fixed;
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: smaller;
+}
+.city {
+  position: fixed;
+  margin-left: 38%;
+  margin-top: 5%;
+}
+.humidity {
+  position: relative;
+  margin-bottom: -2%;
+  margin-top: 2%;
+}
+#search {
+  position: fixed;
+  margin-left: 40%;
+  margin-top: -5%;
+}
+.btn-danger {
+  position: fixed;
+  margin-left: 29%;
+  margin-top: 7px;
+  background-color: rgb(79, 112, 244);
+  border: 1px solid gray;
+  border-radius: 10%;
+}
+.btn-danger:hover {
+  cursor: ;
+  color: aliceblue;
+}
+.font-preci {
+  text-decoration: underline;
+}
+.color {
+  background-color: #ffcc0033;
+  padding: 19px;
+  white-space: red;
+}
+.line {
+  position: fixed;
+  margin-left: 39%;
+  text-align: right;
+}
